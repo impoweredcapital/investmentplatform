@@ -1,5 +1,5 @@
 - name: Home
-  path: index.html
+  path: home.html
   section_id: home
 - name: About Us
   path: about.html
