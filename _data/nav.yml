@@ -2,7 +2,7 @@
   path: index.html
   section_id: home
 - name: About Us
-  path: investmentplatform/about.html
+  path: about.html
   section_id: about
 # - name: Services
 #   path: services.html
@@ -16,26 +16,26 @@
 #     - name: Portfolio item
 #       path: portfolio-item.html
 - name: Strategy
-  path: investmentplatform/strategy.html
+  path: strategy.html
   section_id: portfolio
   children:
     - name: IMP strategy
-      path: investmentplatform/impstrategy.html
+      path: impstrategy.html
     - name: CTA strategy
-      path: investmentplatform/ctastrategy.html
+      path: ctastrategy.html
 - name: Demo
-  path: investmentplatform/demo.html
+  path: demo.html
   section_id: portfolio
   children:
     - name: IMP demo
-      path: investmentplatform/impdemo.html
+      path: impdemo.html
     - name: CTA demo
-      path: investmentplatform/ctademo.html
+      path: ctademo.html
 - name: Sign Up
-  path: investmentplatform/signup.html
+  path: signup.html
   section_id: Sign Up
 - name: Log in
-  path: investmentplatform/login.html
+  path: login.html
   section_id: login
 # - name: Blog
 #   path: blog/
