@@ -1,0 +1,42 @@
+- name: Home
+  path: impowered.capital.test1/index.html
+  section_id: home
+- name: About Us
+  path: impowered.capital.test1/about.html
+  section_id: about
+# - name: Services
+#   path: services.html
+#   section_id: services
+# - name: Portfolio
+#   path: portfolio.html
+#   section_id: portfolio
+#   children:
+#     - name: Portfolio
+#       path: portfolio.html
+#     - name: Portfolio item
+#       path: portfolio-item.html
+- name: Strategy
+  path: impowered.capital.test1/strategy.html
+  section_id: portfolio
+  children:
+    - name: IMP strategy
+      path: impowered.capital.test1/impstrategy.html
+    - name: CTA strategy
+      path: impowered.capital.test1/ctastrategy.html
+- name: Demo
+  path: impowered.capital.test1/demo.html
+  section_id: portfolio
+  children:
+    - name: IMP demo
+      path: impowered.capital.test1/impdemo.html
+    - name: CTA demo
+      path: impowered.capital.test1/ctademo.html
+- name: Sign Up
+  path: impowered.capital.test1/signup.html
+  section_id: Sign Up
+- name: Log in
+  path: impowered.capital.test1/login.html
+  section_id: login
+# - name: Blog
+#   path: blog/
+#   section_id: blog
