@@ -1,0 +1,127 @@
+---
+layout: default
+title: About
+section_id: about
+skills:
+  - title: Web Design
+    percentage: 84
+  - title: Web Development
+    percentage: 95
+  - title: Site Management
+    percentage: 70
+  - title: Branding
+    percentage: 61
+testimonials:
+  - quote: I don't have that much time to monitor hundreds of stocks everyday
+    author:  
+  - quote: I am an experienced trader, looking for new strategy to boost my income
+    author:  
+  - quote: I want to invest in a stock market. I just don't know where to start
+    author:  
+---
+
+<!-- <div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="IMPOWERED" color="#fff" tagline="trade smart" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div> -->
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="IMP screener" %}
+      <div class='spacing'></div>
+      <p class='centered-text'>
+        <b> Get your trade OPTIMIZED! With our screener that scanned through list of 700+ dividend king </br> and help you calculate every possible profit everyday, you will never miss out any opportunity again! </b>
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+
+  <div class='row'>
+    {% for post in site.posts %}
+      {% if forloop.index > 3 %}
+        {% break %}
+      {% endif %}
+
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          {% for image in post.images %}
+            {% unless forloop.first %}
+              {% break %}
+            {% endunless %}
+            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+          {% endfor %}
+          <div class='content'>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <h4><a href="#">{{post.title}}</a></h4>
+            <p>{{post.excerpt}}</p>
+            <!--
+              <div class="tags">
+                {% for cat in post.categories %}
+                  <a href="#">{{cat | capitalize}}</a>
+                  {% unless forloop.last %}
+                    ,
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='blog.html'>See more posts</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+
+</div>
+
+
+<!-- <div class='full'>
+  <div class='row'>
+    {% for member in site.data.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}'>
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class='centered-text'>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div> -->
+
+
+
+{% include our-customers.html %}
