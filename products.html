@@ -41,18 +41,17 @@ testimonials:
     </div>
   </div>
 
-  <div class='row'>
+  <!-- <div class='row'>
     {% for post in site.posts %}
       {% if forloop.index > 3 %}
         {% break %}
-      {% endif %}
+      {% endif %} -->
 
       <div class='large-4 medium-4 columns'>
         <div class='mod modBlogPost'>
           {% for image in post.images %}
             {% unless forloop.first %}
-              {% break %}
-            {% endunless %}
+             {% endunless %}
             <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
           {% endfor %}
           <div class='content'>
@@ -72,10 +71,10 @@ testimonials:
           </div>
         </div>
       </div>
-
+<!-- 
     {% endfor %}
 
-  </div>
+  </div> -->
 
 
   <div class='two spacing'></div>
