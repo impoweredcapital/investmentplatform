@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Your Journey Starts Now!"
 date:   2015-02-10 08:19:12
 categories: jekyll update
 ---
