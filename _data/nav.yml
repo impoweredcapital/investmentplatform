@@ -37,6 +37,9 @@
 - name: Log in
   path: login.html
   section_id: login
+- name: Products
+  path: products.html
+  section_id: products
 # - name: Blog
 #   path: blog/
 #   section_id: blog
