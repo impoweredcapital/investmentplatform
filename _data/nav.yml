@@ -39,7 +39,7 @@
   section_id: login
 - name: Products
   path: products.html
-  section_id: products
+  section_id: posts
 # - name: Blog
 #   path: blog/
 #   section_id: blog
