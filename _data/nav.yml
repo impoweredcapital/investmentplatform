@@ -40,6 +40,7 @@
 - name: Products
   path: products.html
   section_id: posts
+  children:
     - name: all products
       path: allproducts.html
 # - name: Blog
