@@ -40,6 +40,8 @@
 - name: Products
   path: products.html
   section_id: posts
+    - name: all products
+      path: allproducts.html
 # - name: Blog
 #   path: blog/
 #   section_id: blog
