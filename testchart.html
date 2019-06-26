@@ -1,0 +1,67 @@
+---
+layout: default
+title: About
+section_id: about
+skills:
+  - title: Web Design
+    percentage: 84
+  - title: Web Development
+    percentage: 95
+  - title: Site Management
+    percentage: 70
+  - title: Branding
+    percentage: 61
+testimonials:
+  - quote: I don't have that much time to monitor hundreds of stocks everyday
+    author:  
+  - quote: I am an experienced trader, looking for new strategy to boost my income
+    author:  
+  - quote: I want to invest in a stock market. I just don't know where to start
+    author:  
+---
+
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="IMPOWERED PRODUCT" %}
+      <div class='spacing'></div>
+      <p class='centered-text'>
+        <b> AT IMPOWERED WE BELIEVE THAT “GREAT” TRADING STRATEGY FOR YOU IS ONE THAT ALLOWS YOU TO FOCUS ON MAKING THE BEST POSSIBLE PROFIT WHILE TAKING AWAY YOUR BURDEN COMPLETELY. TRADE SMART LIKE NEVER BEFORE. </b>
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+  <div class='two spacing'></div>
+</div>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_5409d"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 980,
+  "height": 610,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_5409d"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+
+{% include our-customers.html %}

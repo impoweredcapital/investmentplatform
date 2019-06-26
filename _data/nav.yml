@@ -47,6 +47,9 @@
       path: impproduct.html
     - name: My Cart
       path: cart.html
+- name: Test Chart
+  path: testchart.html
+  section_id: Test Chart
 # - name: Blog
 #   path: blog/
 #   section_id: blog
