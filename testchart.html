@@ -73,48 +73,67 @@ testimonials:
 <!-- TradingView Widget END -->
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_5409d"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "width": 980,
-  "height": 610,
-  "symbol": "NASDAQ:AAPL",
-  "interval": "D",
-  "timezone": "Etc/UTC",
-  "theme": "Light",
-  "style": "1",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "allow_symbol_change": true,
-  "container_id": "tradingview_5409d"
-}
-  );
-  </script>
+
+
+<!-- TradingView Widget BEGIN -->
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-8 columns'>
+
+      <div class="tradingview-widget-container">
+        <div id="tradingview_34766"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        new TradingView.widget(
+        {
+        "autosize": true,
+        "symbol": "NASDAQ:AAPL",
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "Light",
+        "style": "1",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "withdateranges": true,
+        "allow_symbol_change": true,
+        "news": [
+          "headlines"
+        ],
+        "container_id": "tradingview_34766"
+      }
+        );
+        </script>
+      </div>
+    </div> 
+
+    <div class='large-4 columns'>
+
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Fundamental Data</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+        {
+        "symbol": "NASDAQ:AAPL",
+        "colorTheme": "light",
+        "isTransparent": false,
+        "largeChartUrl": "",
+        "displayMode": "regular",
+        "width": 480,
+        "height": 830,
+        "locale": "en"
+      }
+        </script>
+      </div>
+    </div>
+  </div>
 </div>
+<!-- TradingView Widget END -->
 <!-- TradingView Widget END -->
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Fundamental Data</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
-  {
-  "symbol": "NASDAQ:AAPL",
-  "colorTheme": "light",
-  "isTransparent": false,
-  "largeChartUrl": "",
-  "displayMode": "regular",
-  "width": 480,
-  "height": 830,
-  "locale": "en"
-}
-  </script>
-</div>
+
 <!-- TradingView Widget END -->
 
 
