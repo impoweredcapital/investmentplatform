@@ -5,8 +5,8 @@
     <description>Impowered is a complete platform to assist and optimized your trading decision based on curated list of best strategy from various elite traders.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jul 2019 17:51:28 +0700</pubDate>
-    <lastBuildDate>Tue, 16 Jul 2019 17:51:28 +0700</lastBuildDate>
+    <pubDate>Tue, 16 Jul 2019 17:53:58 +0700</pubDate>
+    <lastBuildDate>Tue, 16 Jul 2019 17:53:58 +0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
   </channel>
