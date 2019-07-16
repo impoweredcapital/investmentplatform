@@ -78,8 +78,6 @@ testimonials:
       <div class='three spacing'></div>
     </div>
   </div>
-  
-  <div class='spacing'></div>
 </div>
 
 <!-- Handpicked section -->
@@ -91,36 +89,22 @@ testimonials:
   </div>
 <!-- Handpicked section -->
 
-
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns centered-text'>
-      {% include section-header.html title="Stock Selection Screener" %}
+      {% include section-header.html title="Additional Info" %}
       <div class='spacing'></div>
       <p>
-        Choose the stocks from below stock list. You can adjust the list below by using header filter.
+        See your focus stock from Technical point of view and their Related Headlines. 
       </p>
       <div class='three spacing'></div>
     </div>
   </div>
-  
-  <div class='spacing'></div>
 </div>
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns centered-text'>
-      {% include section-header.html title="Profit Screener" %}
-      <div class='spacing'></div>
-      <p>
-        Adjust how much you want to make based on ROI or premium collected from the below screener.
-      </p>
-      <div class='three spacing'></div>
-    </div>
-  </div>
-  
-  <div class='spacing'></div>
-</div>
+<script type="text/javascript">
+  var symbol = 'AAPL';
+</script>
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -128,7 +112,7 @@ testimonials:
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
 
-  	var symbol = 'TSN';
+    
   new TradingView.widget(
   {
   "width": 980,
@@ -153,6 +137,7 @@ testimonials:
   </script>
 </div>
 <!-- TradingView Widget END -->
+<div class='three spacing'></div>
 
 <style>
 div.relative {
@@ -162,25 +147,52 @@ div.relative {
 }
 </style>
 
-<!-- TradingView Widget BEGIN -->
 
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="relative">
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
-  	console.log(symbol);
-  {
-  "symbol": symbol,
-  "colorTheme": "light",
-  "isTransparent": false,
-  "largeChartUrl": "",
-  "displayMode": "compact",
-  "width": "980",
-  "height": "550",
-  "locale": "en"
-}
-  </script>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns centered-text'>
+      {% include section-header.html title="Stock Selection Screener" %}
+      <div class='spacing'></div>
+      <p>
+        Choose the stocks from below stock list. You can adjust the list below by using header filter.
+      </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
 </div>
-<!-- TradingView Widget END -->
+
+<!-- Stock Selection section -->
+<div class='row'>
+    <div class='medium-12 columns'>
+      <img src="images/stockscreener.jpg" />
+      <div class='three spacing'></div>
+    </div>
+  </div>
+<!-- Stock Selection section -->
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns centered-text'>
+      {% include section-header.html title="Profit Screener" %}
+      <div class='spacing'></div>
+      <p>
+        Adjust how much you want to make based on ROI or premium collected from the below screener.
+      </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
+</div>
+
+<!-- Profit screener section -->
+<div class='row'>
+    <div class='medium-12 columns'>
+      <img src="images/optionchain.jpg" />
+      <div class='three spacing'></div>
+    </div>
+  </div>
+<!-- Profit screener section -->
+
+
+
 
 {% include our-customers.html %}
