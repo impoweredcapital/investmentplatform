@@ -166,24 +166,20 @@
 </div>
 
     <div id='main' role='main'>
-      <div class='full' style='background: #f5f5f5'>
+      <div class='full parallax' style='background-image: url(images/IMP_screener.jpg); color: #fff;'>
   <div class='row'>
-    <div class='large-12 columns'>
-      <div class="mod modSectionHeader ">
+    <div class='twelve columns'>
+      <div class="mod modSectionHeader big">
   <div class="special-title centered-text">
-    <h2 style="color: ;">IMPOWERED PRODUCT</h2>
+    <h2 style="color: #fff;">IMP filter</h2>
   </div>
   
+    <h3 class='centered-text' style='color: #fff'>version 1.1.03</h3>
+  
 </div>
-      <div class='spacing'></div>
-      <p class='centered-text'>
-        <b> AT IMPOWERED WE BELIEVE THAT “GREAT” TRADING STRATEGY FOR YOU IS ONE THAT ALLOWS YOU TO FOCUS ON MAKING THE BEST POSSIBLE PROFIT WHILE TAKING AWAY YOUR BURDEN COMPLETELY. TRADE SMART LIKE NEVER BEFORE. </b>
-      </p>
-      <div class='two spacing'></div>
     </div>
   </div>
-  <div class='two spacing'></div>
-  <div class='two spacing'></div>
+  <div class='four spacing'></div>
 </div>
 
 <!-- TradingView Widget BEGIN -->
@@ -231,14 +227,16 @@
   <div id="tradingview_4c523"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
+
+  	var symbol = 'TSN';
   new TradingView.widget(
   {
   "width": 980,
   "height": 610,
-  "symbol": "TSN",
+  "symbol": symbol,
   "interval": "D",
   "timezone": "Etc/UTC",
-  "theme": "Light",
+  "theme": "Light", 
   "style": "1",
   "locale": "en",
   "toolbar_bg": "#f1f3f6",
@@ -270,8 +268,9 @@ div.relative {
   <div class="tradingview-widget-container__widget"></div>
   <div class="relative">
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+  	console.log(symbol);
   {
-  "symbol": "TSN",
+  "symbol": symbol,
   "colorTheme": "light",
   "isTransparent": false,
   "largeChartUrl": "",
